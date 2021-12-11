@@ -25,7 +25,8 @@ public class StepDefinition {
     
     @When("User login into application with {string} and {string}")
     public void user_login_into_application_with_and(String string, String string2) {
-        System.out.println(string);
+        System.out.println("GIT develop branch");
+    	System.out.println(string);
         System.out.println(string2);
     }
 
