@@ -32,6 +32,7 @@ public class StepDefinition {
 
     @Then("^Home page is populated$")
     public void home_page_is_populated() throws Throwable {
+    	 System.out.println("GIT merge into master branch");
     	System.out.println("C");
     }
 
