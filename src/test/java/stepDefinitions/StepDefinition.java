@@ -38,6 +38,7 @@ public class StepDefinition {
 
     @And("^Cards are displayed$")
     public void cards_are_displayed() throws Throwable {
+    	System.out.println("GIT final commit");
     	System.out.println("D");
     }
 
